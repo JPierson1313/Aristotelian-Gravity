@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e826d346883aac74a8e5552b79cb2687
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Humanistic
+  fontNames:
+  - Humanistic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 962f3dc8cadb33644b479d3df3904995, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
