@@ -20,12 +20,6 @@ public class CannonSystem : MonoBehaviour
     public TextMeshPro angleText;
     public TextMeshPro powerText;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     { 
