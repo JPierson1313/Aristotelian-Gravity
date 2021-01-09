@@ -9,7 +9,7 @@ using UnityEngine;
 
 public class AristotelianGravityScript : MonoBehaviour
 {
-    public CannonSystem cs; //This is to get the CannonSystem script attach to the Cannon
+    public CannonSystem cs; //Getting the CannonSystem script
     public Rigidbody2D rb; //The cannonball's rigidbody
     public bool hasStopped; //Boolean use to see if the cannonball has stopped moving in the air after losing all of its impetus
 
@@ -32,7 +32,7 @@ public class AristotelianGravityScript : MonoBehaviour
         i /= rb.mass;
 
         //When the impetus reaches zero, we would stop the cannonball then tell the velocity to go downward and set the to the object's mass
-        if(i == 0)
+        if(i <= 0)
         {
             rb.velocity = new Vector2(0, rb.velocity.y);
             rb.gravityScale = rb.mass;
